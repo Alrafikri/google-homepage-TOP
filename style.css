@@ -1,0 +1,163 @@
+html, body {
+    height: 100%;
+}
+
+.container {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 40px auto 40px 40px;
+}
+
+.header {
+    grid-column: 1 / span 2;
+    grid-row: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    grid-column: 1 / span 2;
+    grid-row: 2;
+}
+
+.footer-a {
+    grid-column: 1 / span 2;
+    grid-row: 3;
+}
+
+.footer-b {
+    grid-column: 1;
+    grid-row: 4;
+}
+
+.footer-c {
+    grid-column: 2;
+    grid-row: 4;
+}
+
+.header-items {
+    float: right;
+}
+
+.main-items {
+    margin: auto;
+    text-align: center;
+}
+
+.grid {
+    height: 23px;
+    width: 23px;
+    top: 7px;
+    position: relative;
+}
+
+.google img{
+    width: 272px;
+}
+
+.search-language, .search-button, .textsearch, .google {
+    margin: 18px 0px;
+}
+
+.header-items a{
+    color: black;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+.header-items span {
+    margin: auto 8px;
+}
+
+.header-items span a {
+    font-size: 12px;
+}
+
+button {
+    border: none;
+    color: black;
+    padding: 2px 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+}
+
+.search-button {
+    background-color: rgb(242, 242, 242);
+    color: rgb(95, 99, 104);
+    font-size: 14px;
+    padding: 10px 16px;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+.login-button {
+    background-color: #4285f4;
+    color: white;
+    padding: 6px 16px;
+    font-size: 14px;
+}
+
+.search-language p {
+    font-size: 12px;
+}
+
+.footer-a, .footer-b, .footer-c {
+    background-color: #f1efef;
+    border-bottom: 1px solid #e4e4e4;
+    display: flex;
+    align-items: center;
+}
+
+.footer-a-item {
+    font-size: 16px;
+    padding: 14px;
+    margin-left: 20px;
+    color: rgba(0,0,0,.54);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-b, .footer-c {
+    font-size: 12px;
+    color: rgba(0,0,0,.54);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-b-items {
+    margin-left: 24px;
+}
+
+.footer-c {
+    justify-content: right;
+}
+
+.footer-c-items{
+    margin-right: 24px;
+}
+
+footer a{
+    color: rgba(0,0,0,.54);
+}
+
+.footer-b span, .footer-c span{
+    margin: auto 10px;
+}
